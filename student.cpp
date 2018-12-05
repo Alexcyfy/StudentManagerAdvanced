@@ -29,8 +29,18 @@ for(int i = 0; i<grades.size(); i++)
 { 
   grade = grades[i] + grade;  
 }
+if(grades.size() > 0)
+{
 grade = grade/grades.size();
 return grade;
+}
+else
+{
+ return 0;
+}
+
+
+
 
 }
 
