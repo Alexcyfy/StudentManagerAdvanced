@@ -36,7 +36,7 @@ return grade;
 }
 else
 {
- return 0;
+ return grade;
 }
 
 
